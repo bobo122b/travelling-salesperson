@@ -13,7 +13,7 @@ int* slice(const int* order, int len) //returns a copy of what's inside
     return res;
 }
 
-void reverse(int* arr, int len)
+void reverse(int* arr, int len)  //reverses an input array
 {
     int i, j, temp;
     for (i = 0, j = len - 1; i < j; i++, j--)
@@ -24,7 +24,7 @@ void reverse(int* arr, int len)
     }
 }
 
-// concatenates two arrays
+// concatenates two arrays and returns the result
 int* concat(const int* ord1, int n1, const int* ord2, int n2)
 {
     int* res = (int*)calloc((n1 + n2), sizeof(int));
