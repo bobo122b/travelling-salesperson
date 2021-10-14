@@ -20,10 +20,3 @@ ex: for an order array of 3 elements it will provide orders as:
     2  1  0
     
 those are the 6 possible orders, when the algorithm finds that the order array is totally reversed, it returns NULL.
-
-
-    #include <stdio.h>
-    int main()
-    {
-        printf("Hello mf\n");
-    }
