@@ -20,3 +20,5 @@ ex: for an order array of 3 elements it will provide orders as:
     2  1  0
     
 those are the 6 possible orders, when the algorithm finds that the order array is totally reversed, it returns NULL.
+
+if you try to add more than 11 cities, please be sure that your processor can handle it first, cause starting from 12 the number of possibilities start getting crazy, and as far as I know, starting from 13 your computer will just start overflowing on the factorial output, I guess you know how big is the number at which your computer overflow. 
