@@ -1,6 +1,7 @@
 /*this file contains the dist function that calculates the distance between two cities and calcDistance that calculates the full distance between cities in a 
   provided order*/
 #include "sales.h"
+#include <math.h>
 
 // returns the distance between two points on a 2D plan
 double dist(city* c1, city* c2)
